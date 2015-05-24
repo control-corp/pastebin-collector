@@ -6,8 +6,6 @@ class Pastebin
 {
     const URL = 'http://pastebin.com';
 
-    protected $table = 'files';
-
     protected $dir;
 
     public static $sleep = 1;
