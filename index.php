@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/Pastebin.php';
+require 'Pastebin.php';
 
 $method   = isset($argv[1]) ? trim($argv[1]) : 'process';
 
